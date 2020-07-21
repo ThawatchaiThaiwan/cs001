@@ -9,20 +9,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Merienda+One&family=Sriracha&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merienda+One&family=Sriracha&display=swap" rel="stylesheet">
     <style>
-        .cshead{
-            height: 100px;
-            width: 99.90%;
-            letter-spacing:40px;
-           /* justify-items:center ;
-            align-items: center;*/
 
+
+        
+        .cshead{
+           
+           
+           
+           /* height: 100px;
+            width: 1000px;
+            /*letter-spacing:40px;
+          
             font-weight: 900; /*น้ำหนักฟ้อนต์*/
-            font-size: 70px;  /*ขนาดฟอนต์*/
-            color: rgb(12, 236, 12);
+           /* font-size: 70px;  /*ขนาดฟอนต์*/
+           /* color: rgb(12, 236, 12);
             text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;/*สีข้อความ*/
-            background-image: linear-gradient(to right, red , yellow);/*ไล่สี*/
-            border: 1px solid ;
-            font-family: 'Abril Fatface', cursive;
+           /* background-image: linear-gradient(to right, red , yellow);/*ไล่สี*/
+           /* border: 1px solid ;
+            font-family: 'Abril Fatface', cursive;*/
 
         }
         .cshead1{ /*ปุ่ม*/
@@ -42,21 +46,23 @@
             width: 9%;
         }    
         .cshead4{/*ค้นหา*/
-            float: right ;
-           
-            width: 400px;
-            
+            float: inherit ;
             box-sizing: border-box;
             /*border: 2px solid #ccc;*/
             border-radius: 4px;
             font-size: 16px;
-            background-image: linear-gradient(to right, red , yellow);
-            background-image: url('searchicon.png');
+           /* background-image: linear-gradient(to right, red , yellow);
+            background-image: url('searchicon.png');*/
             background-position: 40px 40px; 
             background-repeat: no-repeat;
             padding: 30px 20px 30px 40px;
             -webkit-transition: width 0.4s ease-in-out;
             transition: width 0.4s ease-in-out;  
+            position: absolute;
+            right: 0px;
+            
+            width: 245px;
+            padding: 1px;
             
         } 
         input[type=text]:focus {
@@ -112,15 +118,18 @@
 </head>
 
 <body>
-    <div class="cshead4">
-        <form>
-            <input type="text" name="search" placeholder="Search..">
-          </form>
     
-    </div>
     <div class="cshead">
-        <header>Spider</header>   
+        <img src="template (8).jpg"> 
+        <div class="cshead4">
+            <form>
+                <input type="text" name="search" placeholder="Search..">
+              </form>
+        
+        </div>
+        
     </div>
+    
     <div class="cshead3">
         <c></c>
     </div>
